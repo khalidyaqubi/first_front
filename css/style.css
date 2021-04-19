@@ -1,0 +1,124 @@
+@font-face {
+    font-family: muna;
+    src: url('font/muna.ttf');
+}
+
+@font-face {
+    font-family: segoeui;
+    src: url('font/Segoe UI.ttf');
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+
+.btn-hover {
+    font-weight: 600;
+    color: #364585;
+    cursor: pointer;
+    margin: 20px;
+    border: none;
+    background-size: 300% 100%;
+    width: 100%;
+    font-family: muna;
+    font-size: 3vw;
+    text-align: center;
+    /*padding: 20px 50px 35px 40px;*/
+    line-height:8vw;
+    height: 10vw;
+    border-radius: 35px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+
+.btn-hover.color-2 {
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+
+}
+
+body {
+    background-image: url('../images/template.png');
+    background-size: auto 100%;
+}
+
+img {
+    width: 100%;
+}
+
+header p {
+    font-family: muna;
+    font-size: 3vw;
+    color: #fff
+}
+
+.big_div {
+    height: 100vw
+}
+
+.open {
+    margin: auto
+}
+
+footer {
+    background: rgba(0, 19, 176, 0.1);
+}
+
+.app_store,.footer_div,.download {
+    margin: auto !important;
+}
+
+.download p {
+    font-family: muna !important;
+    font-size: 2.2vw !important;
+    padding-right: 75px !important;
+    color: #fff !important;
+    text-align: justify !important;
+}
+
+footer a.btn {
+    color: #fff !important;
+    /*padding-bottom: 40px;*/
+    /*padding-top:40px;*/
+    /*padding-left: 20px !important;*/
+    line-height: 8vw;
+    height: 10vw;
+    direction: ltr !important;
+    background-color: #090097 !important;
+    font-family: segoeui !important;
+    text-align: center !important;
+    font-size: 2.2vw;
+}
+
+.footer_div a {
+    font-family: SegoeUI !important;
+    font-size: 2.2vw !important;
+    color: #E18B00 !important;
+    direction: ltr !important;
+    text-align: center !important;
+
+    text-decoration: auto;
+
+}
